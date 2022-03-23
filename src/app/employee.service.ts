@@ -8,7 +8,7 @@ import { IEmployee } from './iemployee';
 })
 export class EmployeeService {
 
-  URL = "https://dummy.restapiexample.com/api/v1/employees"
+  URL = "https://dummy.restapiexample.com/api/v1/employees" // rate limited
   URL2 = "/assets/employees.json"
   constructor(private http:HttpClient) { }
   
